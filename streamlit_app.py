@@ -4,6 +4,9 @@ import streamlit.components.v1 as components
 from src.setup import initialize_environment
 from src.utils import read_html_file, fetch_eia_report, fetch_ai_analysis, bar_chart
 
+
+# todo check browser size
+
 st.set_page_config(layout="wide")
 
 # Initialize the environment
