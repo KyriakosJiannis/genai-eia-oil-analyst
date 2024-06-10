@@ -1,7 +1,7 @@
 # EIA Report AI Oil Analyst
 
 ## Overview
-The EIA Oil AI Oil Analyser is a Streamlit application that analyses 
+The EIA Oil AI Analyser is a Streamlit application that analyses 
 the weekly EIA (Energy Information Administration) from investing api report 
 [investing.com](https://www.investing.com/earnings-calendar/) 
 using OpenAI's language model. 
