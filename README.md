@@ -19,7 +19,7 @@ Don't take that as trade ideals, as it has not been evaluated or optimised furth
 
 
 ## Screenshot
-![EIA Report AI Analyzer](html/screenshot.png)
+![EIA Report AI Analyzer](./html/Screenshot.PNG)
 
 ## Project Structure
     
