@@ -1,4 +1,3 @@
-# src/run_analysis.py
 from datetime import datetime
 from src.config_loader import load_config
 from src.setup import initialize_environment
@@ -27,12 +26,12 @@ def perform_analysis(config):
     # Access API key if available
     api_key = config.get('api', {}).get('openai_key')
 
-    # Your analysis code here
+    # todo
+
     if enable_data_analysis:
-        # Perform data analysis
         pass
 
-    return True  # Indicate success for test purposes
+    return True
 
 
 def main():
@@ -42,7 +41,7 @@ def main():
     config = load_config()
     perform_analysis(config)
 
-    # Define the report date
+    # report date
     report_date_str = "05-06-2024"
     report_date = datetime.strptime(report_date_str, "%d-%m-%Y")
 
@@ -54,7 +53,7 @@ def main():
     analysis = fetch_ai_analysis(eia_report)
     print(analysis)
 
-    # Create a bar chart based on the rating
+    # Create a bar chart
     rating_html = bar_chart(analysis['rating'])
     print(rating_html)
 
