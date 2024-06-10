@@ -7,15 +7,15 @@ the weekly EIA (Energy Information Administration) from investing api report
 using OpenAI's language model. 
 The app gets the EIA report, performs AI-based analysis to rate the report, 
 and displays the results in an interactive and visually appealing manner 
-also plots [tradingview(https://www.tradingview.com/) widget for USOIL price. 
+also plots [tradingview.com](https://www.tradingview.com/) widget for USOIL price. 
 
 - This project happened with the scope to gain hands-on experience after a quick training in langchain_openai.
 Don't take that as trade ideals, as it has not been evaluated or optimised further, may try more complex and more expensive models architectures.
 
 ## Features
 - **EIA Report:** Gets the weekly EIA report data from investing.com.
-- **AI Analysis:** Uses OpenAI's language model to analyze the report and provide a rating.
-- **Interactive Visualization:** Displays the report data, AI analysis, and a rating bar in a user-friendly interface.
+- **AI Analysis:** Uses OpenAI's language model to analyse the report and provide a rating.
+- **Interactive Visualisation:** Displays the report data, AI analysis, and a rating bar in a user-friendly interface.
 
 
 ## Screenshot
