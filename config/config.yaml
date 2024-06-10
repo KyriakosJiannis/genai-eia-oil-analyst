@@ -1,0 +1,24 @@
+# Configuration settings for LLM EIA Weekly Report
+
+openai:
+  model: "gpt-3.5-turbo"
+  max_tokens: 150
+  temperature: 0.7  # Adjust the temperature for OpenAI completions
+  top_p: 1.0
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  html_files: "html/"
+
+features:
+  enable_data_analysis: True
+  enable_logging: False
+
+investing_data:
+  use_fake: False  # Set to True to use fake data for development not query the investing, False to use real
+
+openai_data:
+  use_fake: False # Set to True to use fake data for development not query the openai api, False to use real

@@ -1,0 +1,78 @@
+# Ignore .env file
+.env
+
+# Exclude PyCharm files and directories
+.idea/
+*.iml
+
+# Exclude Visual Studio Code files and directories
+.vscode/
+*.code-workspace
+
+# Thumbnails
+._*
+
+# Exclude Python-related files
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.cache
+coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+__pycache__/
+
+# Exclude images
+*.jpg
+*.jpeg
+#*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ico
+
+# Exclude logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Exclude other IDEs and editors files
+*.sublime-project
+*.sublime-workspace
+
+# Exclude virtual environment directories
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+
+todo.txt

@@ -1,0 +1,6 @@
+# todo
+openai
+streamlit
+pandas
+langchain
+yaml
