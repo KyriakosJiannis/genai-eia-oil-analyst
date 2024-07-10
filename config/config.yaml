@@ -21,4 +21,4 @@ investing_data:
   use_fake: False  # Set to True to use fake data for development not query the investing, False to use real
 
 openai_data:
-  use_fake: False # Set to True to use fake data for development not query the openai api, False to use real
+  use_fake: False  # Set to True to use fake data for development not query the openai api, False to use real

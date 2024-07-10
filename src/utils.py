@@ -10,6 +10,8 @@ BASE_PATH = os.path.dirname(os.path.dirname(__file__))
 
 config = load_config()
 HTML_PATH = os.path.join(BASE_PATH, config['paths']['html_files'])
+
+# Define the config.yalm True/False
 USE_FAKE_DATA = config['investing_data']['use_fake']
 USE_FAKE_AI_API = config['openai_data']['use_fake']
 
